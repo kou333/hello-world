@@ -34,3 +34,31 @@ Everything up-to-date
 
 D:\c dac cprogram\kkk\hello-world>git push
 Everything up-to-date
+
+
+D:\c dac cprogram\kkk\hello-world>git add koustubh.txt
+
+D:\c dac cprogram\kkk\hello-world>git add gitcommands.txt
+
+D:\c dac cprogram\kkk\hello-world>git commit -m " new file"
+[master bf9199e]  new file
+ 2 files changed, 37 insertions(+)
+ create mode 100644 gitcommands.txt
+ create mode 100644 koustubh.txt
+
+D:\c dac cprogram\kkk\hello-world>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+D:\c dac cprogram\kkk\hello-world>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 974 bytes | 974.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kou333/hello-world.git
+   a7e72ca..bf9199e  master -> master
