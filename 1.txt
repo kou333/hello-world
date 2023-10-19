@@ -1,0 +1,57 @@
+Microsoft Windows [Version 10.0.19045.3570]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dac\Desktop\git\hello-world>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\dac\Desktop\git\hello-world>git add java.txt
+
+C:\Users\dac\Desktop\git\hello-world>git commit -m "new data"
+[master 37099b8] new data
+ Committer: dac <dac@dypm.org>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+)
+ create mode 100644 java.txt
+
+C:\Users\dac\Desktop\git\hello-world>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 324 bytes | 324.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kou333/hello-world.git
+   d3e481d..37099b8  master -> master
+
+C:\Users\dac\Desktop\git\hello-world>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\dac\Desktop\git\hello-world>git pull
+Already up to date.
+
+C:\Users\dac\Desktop\git\hello-world>
+
+
